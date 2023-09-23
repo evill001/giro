@@ -1,0 +1,274 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+
+h3{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main_menu ul li{
+    list-style-type: none;
+    margin-left: 33px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    opacity: 40%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner_name{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 306px;
+}
+
+.banner_name h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.banner_name p{
+    margin-top: 39px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.banner_name button{
+    width: 133px;
+    height: 35px;
+    border-radius: 10px;
+    background: #FFF;
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.main{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.about_us{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin: 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p:nth-child(1){
+    margin: 0;
+    margin-top: 50px;
+}
+
+.about_us p:nth-child(2){
+    margin: 0;
+    margin-top: 20px;
+}
+
+.background{
+    background-color: #EEF2E3;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog ul li{
+    list-style-type: none;
+    margin-left: 39px;
+    display: inline;
+}
+
+.catalog ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+ .catalog ul li a:hover{
+    color: #FFF;
+    transition-duration: 0.1s;
+    transform: scale(1.5);
+}
+
+.catalog ul li:hover{
+    transform: scale(1.5);
+    background-color: #F90;
+    transition-duration: 0.1s;
+    border-radius: 15px;
+}
+
+.products{
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.tovar{
+    width: 261px;
+    height: 390px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 50px;
+    background-color: #FFF;
+}
+
+.pustoe_mesto{
+    height: 16px;
+}
+
+.vid{
+    width: 83px;
+    height: 30px;
+    background-image: url('img/Rectangle 6.png');
+}
+
+.vid p{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.sigvei img{
+    position: relative;
+    margin: 0px 11px;
+}
+
+.name{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 28px;
+}
+
+.prise{
+    margin: 0;
+    padding-top: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 28px;
+}
+
+.polez_inf{
+    margin-top: 60px;
+}
+
+.polez_inf h2{
+    margin-bottom: 50px;
+}
+
+.kv{
+    background-color: black;
+    width: 261px;
+    height: 261px;
+}
+
+.kv img{
+    opacity: 60%;
+}
+
+.kv p{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -163px;
+}
+
+footer{
+    width: 100%;
+    background-color: #EEF2E3;
+    height: 327px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #8191A6;
+}
+
+footer h4{
+    color: black;
+}
+
+footer section{
+    display: flex;
+}
+
+.bl{
+    margin-left: 200px;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    color: #8191A6;
+    list-style-type: none;
+    display: block;
+}
